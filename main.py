@@ -4,12 +4,16 @@ def main():
     Code Your Program here
     ########################################
     """
-    total = 0
+    sum = 0
+    for i in range(5):
+        number = int(input('Enter a number '))
+        sum += number
+    print (sum)
 
     ########################################
     # Do not delete the return statement
     ########################################
-    return total
+    return sum
 
 
 if __name__ == '__main__':
